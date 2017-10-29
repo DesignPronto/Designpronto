@@ -1,0 +1,95 @@
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 1);
+    position: fixed;
+    z-index: 1;
+}
+
+#header-inner {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+#logo {
+    width: 90px;
+    height: 85px;
+    float: left;
+    background-image: url(designprontoLOGO2.png);
+    background-size: cover;
+    z-index: 100;
+    margin-top: -5px;
+    position: relative;
+    left: 4.5em
+}
+
+ #header-inner p {
+    position: relative;
+    left: 6.5em;
+    top: 0.8em;
+    color: #fff;
+     font-family: "Julius Sans One";
+     font-size: 1.2em;
+     letter-spacing: 3px;
+    text-decoration: none;
+}
+
+#menu-icon {
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(menu-icon.png) center;
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding-right: 75px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 30px;
+    width: 70px;
+    height: 20px;
+    font-size: 1em;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+nav ul li:hover {
+    border-bottom: solid white 2.2px;
+}
+
+nav ul li a {
+    color: #bcc6d0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.current {
+    color:#73b5ff;
+}
+
+#underline {
+    height: 40px;
+    width: 100%;
+    background-color: aqua;
+}

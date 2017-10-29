@@ -1,0 +1,333 @@
+html {
+    font-size: 14px;
+}
+
+html body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#333;
+}
+
+
+
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(51, 51, 51, 1);
+    position: fixed;
+    z-index: 1;
+}
+
+#header-inner {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+#logo {
+    width: 90px;
+    height: 85px;
+    float: left;
+    background-image: url(designprontoLOGO2.png);
+    background-size: cover;
+    z-index: 100;
+    margin-top: -5px;
+    position: relative;
+    left: 4.5em
+}
+
+ #header-inner p {
+    position: relative;
+    left: 6.5em;
+    top: 1em;
+    color: #fff;
+     font-family: "Julius Sans One";
+     font-size: 1.2em;
+     letter-spacing: 3px;
+    text-decoration: none;
+}
+
+#menu-icon {
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    background: url(menu-icon.png) center;
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding-right: 75px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    line-height: 30px;
+    width: 70px;
+    height: 20px;
+    font-size: 1em;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+nav ul li:hover {
+    border-bottom: solid white 2.2px;
+}
+
+nav ul li a {
+    color: #bcc6d0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+.current {
+    color:#73b5ff;
+}
+
+
+
+body .main {
+    width: 80%;
+    height: 240px;
+    margin: 15em auto 10em;
+    
+    border-radius: 4em 4em 0 0;
+    background-color: whitesmoke;
+    clear: both;
+    
+}
+
+.main .main-inner {
+    width:90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "lato";
+    width: 4.7em;
+    margin: 0 auto;
+    color: #7d8690;
+    position: relative;
+    top: 2.2em;
+    font-weight: 900
+}
+.main-inner h2 {
+    font-size: 3.1em;
+    font-family: "ubuntu";
+    width: 6.7em;
+    margin: 0 auto;
+    padding-top: 0.5em;
+    color: #545454;
+}
+
+.main .main-inner .dots {
+    height: 1px;
+    width: 100%;
+    font-size: 1.7em;
+    position: relative;
+    bottom: 2.9em;
+    margin: 0 auto;
+    text-align: center;
+    color: gray;
+}
+
+
+    
+
+.main .main-inner p {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding-top: 2em;
+    line-height: 1.6em;
+    color: #474747;
+    text-decoration: none;
+}
+
+
+
+
+#contact-img {
+    width: 100%;
+    height: 720px;
+    background-image: url(contact-img.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#contact-img h2{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 5em;
+    font-weight:800;
+    width:7em;
+    font-family: "lato";
+    top: 4em;
+    position: relative;
+}
+
+#contact-img h5{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    width:18em;
+    font-family: sans-serif;
+    top: 14em;
+    font-weight: 300;
+    position: relative;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+
+#btn2 {
+    text-decoration: none;
+    font-size: 1em;
+    display:block;
+    position: relative;
+    text-align: center;
+    width: 7em;
+    top: 23em;
+    margin: 0 auto;
+    font-family: "Lato";
+    color: white;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    border: solid 2px #ccc;
+    -webkit-transition: color 0.3 ease-out, background color 0.3 ease-out;
+    
+}
+
+#btn2:hover, #button3:focus {
+    background-color:#73b5ff;
+    border-radius: 3em 3em;
+    border-color: #73b5ff;
+}
+
+#footer {
+    height: 50px;
+    background-color:#353535;
+    clear: both;
+    color: white;
+    font-family: "lato";
+}
+
+
+/*-------RESPONSIVE: IPAD---------*/
+
+@media only screen and (max-width: 1080px) and (min-width: 750px) {
+    nav ul {
+        widh: 29em;
+    }
+    #logo {
+        margin: -7px 
+    }
+    h1 {
+        top: 2em;
+        position: relative;
+        font-weight: 900
+    }
+    .gallery {
+        width: 50%;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    #contact-img {
+        clear: both
+    }
+}
+    
+/*-------RESPONSIVE: MOBILE----------*/
+
+
+@media only screen and (max-width: 600px) and (min-width: 320px) { 
+    
+   nav #menu-icon {
+        float: right;
+        display: inline-block;
+        margin: 17px ;
+        width: 40px;
+        height: 40px;
+        visibility: visible;
+    }
+    
+    
+    nav ul, nav:active ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background-color:#222;
+        right: 20px;
+        top: 60px;
+        border: 1px solid white;
+        border-radius: 10px 1px 10px 10px;
+        width: 20%;
+        text-align: center;
+        padding: 0 20px 10px 20px;
+    }
+    nav:hover ul {
+        display: block;
+        border-bottom: none;
+    }
+    nav li {
+        width: 100%;
+    }
+    #logo {
+        margin: -6px;    
+    }
+    
+    #contact-img h2 {
+        font-size: 4em;
+       top: 3em;
+        position: relative;
+    }
+    #contact-img h5 {
+        top: 9em;
+        position: relative;
+    }
+    #contact-img #btn2 {
+        top: 16em;
+        position: relative;
+    }
+    #contact-img {
+        height: 500px;
+        argin-top: -5px;
+        clear: both
+    }
+    h1 {
+        top: 2em;
+        font-weight: 900
+    }
+    .gallery {
+        width: 100%
+    }
+    .gallery img {
+        width: 100%
+    }
+}
