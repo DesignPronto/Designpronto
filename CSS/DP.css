@@ -277,7 +277,7 @@ h4 {
     height: 500px;
     float: left;
     display:block;
-    background: url(././fashionmag.png);
+    background: url(./././fashionmag.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -299,7 +299,7 @@ h4 {
     height: 500px;
     float: lft;
     display: inline-block;
-     background-image: url(DesignPronto.github.io/FRONT%20COVER-Recovered.png);
+     background-image: url("DesignPronto.github.io/FRONT%20COVER-Recovered.png");
     background-size: contain;
     overflow: hidden;
     background-position: center;
@@ -317,7 +317,7 @@ h4 {
     margin:1%;
     height: 500px;
     display: inline-block;
-     background-image: url(./DJCLOGO-1.5.png);
+     background-image: url(DJCLOGO-1.5.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +331,7 @@ h4 {
     height: 500px;
     display: inline-block;
     float: righ;
-    background-image:url(./Mr%20J%20PNG%20LOGO.png);
+    background-image:url("https://designpronto.github.io/Mr%20J%20PNG%20LOGO.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
