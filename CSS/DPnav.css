@@ -42,7 +42,7 @@ nav {
     visibility: hidden;
     width: 40px;
     height: 40px;
-    background: url(menu-icon.png) center;
+    background: url(../Images/menu-icon.png) center;
 }
 
 a:hover#menu-icon {
