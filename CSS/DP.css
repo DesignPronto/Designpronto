@@ -272,12 +272,13 @@ h4 {
 }
 
 .gallery #box {
+    background-image: url(Images/fashion%20mag.png);
     width: 50%;
     margin: %;
     height: 500px;
     float: left;
     display:block;
-    background: url("Images/fashion%20mag.png");
+    
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -294,12 +295,13 @@ h4 {
 }*/
 
 .gallery #box2 {
+    background-image: url('./Images/FRONT%20COVER-Recovered.png');
     width: 50%;
     margin:%;
     height: 500px;
     float: lft;
     display: inline-block;
-     background-image: url('/DesignPronto.co.uk/Designpronto/Images/FRONT%20COVER-Recovered.png');
+     
     background-size: contain;
     overflow: hidden;
     background-position: center;
@@ -313,11 +315,12 @@ h4 {
 }
 
 .gallery #box3 {
+    background-image: url(DJCLOGO-1.5);
     width: 48%;
     margin:1%;
     height: 500px;
     display: inline-block;
-     background-image: url("DJCLOGO-1.5");
+     
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -326,12 +329,13 @@ h4 {
 
 
 .gallery #box4 {
+    background-image:url(./Mr%20J%20PNG%20LOGO);
     width: 49%;
     margin: %;
     height: 500px;
     display: inline-block;
     float: righ;
-    background-image:url(./Mr%20J%20PNG%20LOGO);
+    
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
