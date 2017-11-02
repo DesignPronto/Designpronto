@@ -295,7 +295,7 @@ h4 {
 }*/
 
 .gallery #box2 {
-    background-image: url('../Images/FRONT%20COVER-Recovered.png');
+    background-image: url'../Images/FRONT%20COVER-Recovered.png);
     width: 50%;
     margin:%;
     height: 500px;
@@ -315,7 +315,7 @@ h4 {
 }
 
 .gallery #box3 {
-    background-image: url(Images/DJCLOGO-1.5.png);
+    background-image: url(../Images/DJCLOGO-1.5.png);
     width: 48%;
     margin:1%;
     height: 500px;
@@ -329,7 +329,7 @@ h4 {
 
 
 .gallery #box4 {
-    background-image:url(Mr%20J%20PNG%20LOGO.png);
+    background-image:url(../Mr%20J%20PNG%20LOGO.png);
     width: 49%;
     margin: %;
     height: 500px;
@@ -347,7 +347,7 @@ h4 {
 
 
 #contact-img {
-    background-image: url('https://github.com/DesignPronto/Designpronto/contact-img');
+    background-image: url(..Images/contact-img);
     width: 100%;
     height: 720px;
     
