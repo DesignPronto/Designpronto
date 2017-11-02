@@ -34,7 +34,7 @@ nav {
     width: 90px;
     height: 85px;
     float: left;
-    background-image: url(designprontoLOGO2.png);
+    background-image: url(../Images/designprontoLOGO2.png);
     background-size: cover;
     z-index: 100;
     margin-top: -5px;
@@ -57,7 +57,7 @@ nav {
     visibility: hidden;
     width: 40px;
     height: 40px;
-    background: url(menu-icon.png) center;
+    background: url(../Images/menu-icon.png) center;
 }
 
 a:hover#menu-icon {
@@ -172,7 +172,7 @@ h1 {
 #contact-img {
     width: 100%;
     height: 720px;
-    background-image: url(contact-img.png);
+    background-image: url(../Images/contact-img.png);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
