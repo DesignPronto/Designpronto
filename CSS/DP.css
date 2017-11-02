@@ -266,7 +266,7 @@ h4 {
     height: auto;
     margin: 50px auto;
     border-radius: 2em;
-    background-color: #f5f8fb;
+    background-color: #fff;
     padding-top: 60px;
    
 }
@@ -307,11 +307,6 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     
-}
-
-#box2:hover {
-    background-color: white;
-    border-radius: 2em;
 }
 
 .gallery #box3 {
