@@ -277,7 +277,7 @@ h4 {
     height: 500px;
     float: left;
     display:block;
-    background: url(./Images/fashion mag.png);
+    background: url(/Images/fashion mag.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -299,7 +299,7 @@ h4 {
     height: 500px;
     float: lft;
     display: inline-block;
-     background-image: url(https://designpronto.co.uk/FRONT%20COVER-Recovered.png);
+     background-image: url('Designpronto/Images/FRONT%20COVER-Recovered.png');
     background-size: contain;
     overflow: hidden;
     background-position: center;
