@@ -31,7 +31,7 @@ nav {
     width: 90px;
     height: 85px;
     float: left;
-    background-image: url(./designprontoLOGO2.png);
+    background-image: url(../Images/designprontoLOGO2.png);
     background-size: cover;
     z-index: 100;
     margin-top: -5px;
