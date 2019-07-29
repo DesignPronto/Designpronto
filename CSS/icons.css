@@ -1,0 +1,245 @@
+.icon-con {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    transform: translate(0%, -110%);
+}
+
+
+.myul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    height: 100px;
+    position: absolute;
+    left: 20%;
+    top: 100%;
+    transform: translate(-50%, 200%);
+    z-index: 1000;
+    
+}
+.myul2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    height: 100px;
+    position: absolute;
+    left: 40%;
+    top: 100%;
+    transform: translate(-50%, 200%);
+    z-index: 1000;
+    
+}
+.myul3 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    height: 100px;
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    transform: translate(-50%, 200%);
+    z-index: 1;
+    
+}
+.myul4 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    height: 100px;
+    position: absolute;
+    left: 80%;
+    top: 100%;
+    transform: translate(-50%, 200%);
+    z-index: 1;
+    
+}
+    
+h6{
+    font-size: 22px;
+    width: 140%;
+    height: 200px;
+    color: #424242;
+    position: absolute;
+    transform: translate(-15%,-70%);
+    text-transform:uppercase;
+    line-height: 340px;
+    border: double;
+    transition: .25s ease-in-out;
+}
+h6:hover {
+    color: #ffee10;
+    box-shadow: 0 0 15px #ff497c;
+    text-shadow: 0 0 5px #ff497c;
+}
+.myul .myli {
+    list-style: none;
+    margin: 0 45px;
+   
+}
+.myul2 .myli2 {
+    list-style: none;
+    margin: 0 45px;
+   
+}
+.myul3 .myli3 {
+    list-style: none;
+    margin: 0 45px;
+   
+}
+.myul4 .myli4 {
+    list-style: none;
+    margin: 0 45px;
+   
+}
+.myul .myli > .mya {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #666;
+    transition: .3s ease-in-out;
+    box-shadow:1px 3px 20px #212121
+}
+.myul2 .myli2 > .mya2 {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #666;
+    transition: .3s ease-in-out;
+    box-shadow:1px 3px 20px #212121
+}
+.myul3 .myli3 > .mya3 {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #666;
+    transition: .3s ease-in-out;
+    box-shadow:1px 3px 20px #212121
+}
+.myul4 .myli4 > .mya4 {
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background: #333;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #666;
+    transition: .3s ease-in-out;
+    box-shadow:1px 3px 20px #212121
+}
+.myul .myli .mya:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.6);
+    -index: -1;
+}
+.myul2 .myli2 .mya2:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.6);
+    -index: -1;
+}
+.myul3 .myli3 .mya3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.6);
+    -index: -1;
+}
+.myul4 .myli4 .mya4:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #ffee10;
+    transition: .5s;
+    transform: scale(.6);
+    -index: -1;
+}
+.myul .myli .mya:hover:before {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff497c;
+    left: -2%;
+}
+.myul .myli .mya:hover{
+    color: #ffee10;
+    box-shadow: 0 0 15px #ff497c;
+    text-shadow: 0 0 5px #ff497c;
+}
+.myul2 .myli2 .mya2:hover:before {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff497c;
+    left: -2%;
+}
+.myul2 .myli2 .mya2:hover{
+    color: #ffee10;
+    box-shadow: 0 0 15px #ff497c;
+    text-shadow: 0 0 5px #ff497c;
+}
+.myul3 .myli3 .mya3:hover:before {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff497c;
+    left: -2%;
+}
+.myul3 .myli3 .mya3:hover{
+    color: #ffee10;
+    box-shadow: 0 0 15px #ff497c;
+    text-shadow: 0 0 5px #ff497c;
+}.myul4 .myli4 .mya4:hover:before {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ff497c;
+    left: -2%;
+}
+.myul4 .myli4 .mya4:hover{
+    color: #ffee10;
+    box-shadow: 0 0 15px #ff497c;
+    text-shadow: 0 0 5px #ff497c;
+}
