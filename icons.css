@@ -1,8 +1,12 @@
 .icon-con {
     width: 100%;
-    height: 300px;
-    position: absolute;
-    transform: translate(0%, -110%);
+    height: 1500px;
+    margin: aut;
+    margin-top: 10%;
+    background-color: #487eb0;
+    position:  relative;
+    box-shado: 0 2px 10px;
+   
 }
 
 
@@ -243,3 +247,106 @@ h6:hover {
     box-shadow: 0 0 15px #ff497c;
     text-shadow: 0 0 5px #ff497c;
 }
+
+.flex-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-contet: center;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.left-box {
+    width: 50%;
+    padding: 4%;
+}
+.right-box {
+    width: 50%;
+    positiom: relative;
+    padding: 4%;
+}
+
+.left-box p {
+    font-family: "lato";
+    font-size: 5.5vh;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #444;
+    word-spacing: 5px;
+}
+
+.right-box p {
+    font-size: 2.6vh;
+    font-family: "lato";
+    color: #777;
+    word-spacing: 7px;
+    line-height: 36px;
+    letter-spacing: -0.2px
+}
+
+html .recent  {
+    text-align: center;
+    font-size: 2.6vh;
+    text-transform: capitalize;
+    word-spacing: 7px;
+    font-weight:;
+    background-color: pink;
+    height: 50px;
+    padding-top: 12px;
+    color: whitesmoke;
+}
+
+
+.gallerys {
+    overflow: hidden;
+    display: flex;
+    flex-flow:wrap row;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 1% 2%;
+
+}
+
+.img {
+    overflo: hidden;
+    margin: 5% 0%;
+    border: solid white 3px;
+    max-width: 99%
+}
+
+.img:hover{
+    
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.5s ease-in-out;
+    filter: grayscale(80%);
+    border-radius: 15%;
+}
+
+.gallerys .box {
+    position: relative;
+    width: 470px;
+    height: 450px;
+    margin: 15px 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gallerys .box .imgbox {
+    
+    position: relative;
+    
+}
+.gallerys .box .imgbox img {
+    
+    transition: transform 2s;
+    max-width: 100%;
+    
+}
+.gallerys .box:hover .imgbox img {
+    
+    transform: scale(1.2);
+}
+
