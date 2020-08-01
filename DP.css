@@ -8,7 +8,7 @@ html body {
     width: 100%;
     height: 100%;
     font-family: lato;
-    background: #111;
+    background:#fff
 }
 
 #link {
@@ -23,7 +23,7 @@ html body {
 }
 
 .hero-image {
-    background: url(2business-camera-coffee-1509428.png);
+    background: url(website%20face5.png);
     background-size: cover;
     overflow: hidden;
     height: 800px;
@@ -34,27 +34,27 @@ html body {
 .contain {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 10%;
     transform: translate(-10%, -60%);
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     color: whitesmoke;
 }
 
 
 .contain h1 {
-   font-size: 9em;
+   font-size: 6em;
     font-family: lato;
     font-weight: 900;
     text-transform: uppercase;
     top: 20%;
-    text-shadow: -13px 5px 4px #323232;
-    text-align:right;
+    right: 12;
+    text-align:left;
     line-height: 1;
+    max-width: 60%;
 }
 
 .contain h1 span{
-    border: px solid whitesmoke;
     padding: 12px 12px;
     display: inline-block;
 }
@@ -65,7 +65,7 @@ html body {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 25px;
-    text-shadow: 2px 2px #333;
+    text-shadow: -2px  #333;
 }
 
 
@@ -358,43 +358,7 @@ h3 {
     nav ul {
         width: 35em;
     }
-    #logo {
-        margin: 12px 
-    }
-    .upper-mid strong {
-        width: 18em;
-        font-siz: 1.3em
-    }
-    .upper-mid #intro {
-        width: 39em;
-    }
-    .container {
-        height: 780px;
-    }
-    .container .one-fourth {
-        width: 100%;
-        margin: 1% 0 0 0%;
-        border-bottom: solid 1px darkgray;    
-    }
-    .one-fourth p {
-        width: 90%
-    }
-    .one-fourth .web-design {
-        top: 0px;
-        left: 0px;
-    }
-    .one-fourth .logo-design {
-        top: 0px;
-        left: 0px;
-    }
-    .one-fourth .print-design {
-        top: 0px;
-        left: 0px;
-    }
-    .one-fourth .brand-id {
-        top: 0px;
-        left: 0px;
-    }
+    
     .gallery {
         width: 80%;
         heigh: 250px;
@@ -454,70 +418,13 @@ h3 {
         right: 1.2em;
         z-index:1;
     }
-    .upper-mid {
-        height: 250px
-    }
-    .upper-mid strong {
-        ont-size: 1em;
-        width: 19em;
-    }
-    .upper-mid #intro {
-        width: 35em;
-        top: 4.5em;
-    }
-    .upper-mid #btn {
-        top: 5.5em
-    }
-    .container {
-        border-radius: 15px;
-        height: 670px;
-        width: 95%;
-        margin: auto;
-    }
-    .container .one-fourth {
-        width: 90%;
-        right: 12px;
-        position: relative;
-        border-bottom: solid 1px darkgray;
-    }
-    .one-fourth p {
-        ont-size: 0.9em;
-        display: non;
-        width: 33em
-    }
-    .one-fourth #link {
-        top:60px;
-        position: relativ
-    }
-    .one-fourth .web-design {
-        left: -30px;
-        top: 5px;
-        padding-right: 0;
-    }
-    .one-fourth .logo-design {
-        left: -30px;
-        top: 5px;
-        width: 100px;
-        padding-right: 0;
-    }
-    .one-fourth .print-design {
-        left: -30px;
-        top: 5px;
-        padding-right: 0;
-    }
-    .one-fourth .brand-id {
-        left: -30px;
-        top: 5px;
-        width: 100px;
-        padding-right: 0;
-    }
+    
+    
     .gallery {
         height: 2000px;
         width: 90%;
     }
-    .gallery #box, .gallery #box2, .gallery #box3, .gallery #box4 {
-        width: 98%;
-    }
+    
     #contact-img h2 {
         font-size: 4em;
        top: 3em;
