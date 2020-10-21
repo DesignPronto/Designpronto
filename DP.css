@@ -11,25 +11,16 @@ html body {
     background:#fff
 }
 
-#link {
-    font-family: sans-serif;
-    text-decoration: none;
-    color:darkgray;
-    
-}
-#link:hover {
-    color: #73b5ff;
-    border-bottom: solid 1.2px darkgray;
-}
 
 .hero-image {
-    background: url(website%20face5.png);
+    background: url(website%20face7.png);
     background-size: cover;
     overflow: hidden;
     height: 800px;
     position: relative;
    
 }
+
 
 .contain {
     position: absolute;
@@ -58,7 +49,7 @@ html body {
     padding: 12px 12px;
     display: inline-block;
 }
-.des{
+.name{
     margin: 20px 0;
     display: block;
     font-size:25px;
@@ -69,244 +60,9 @@ html body {
 }
 
 
-
-
-
-#hr {
-    display: non;
-    transform: translateY(-460px);
-}
-#bttn {
-    position: absolute;
-    left: 50%;
-    top:175%;
-    transform: translate(-50%, -50%);
-    text-decoration: none;
-    font-size: 25px;
-    display: none;
-}
-.collab {
-    max-widt: 94%;
-    width: 92%;
-    height: 1255px;
-    background-image: linear-gradient(to bottom, #141414, #303030);
-    position:  absolute;
-    transform: translate(4.4%, 4%);
-    box-shadow: 0 2px 15px;
-    z-index: -10;
-}
-
-h3 {
-    font-size: 21px;
-    color: #ccc;
-    text-transform: uppercase;
-    position: relative;
-    left:35%;
-    margin-top: 3%;
-   
-}
-
-/*     SLIDESHOW     */
-
-
-.slideshow-container #slde1, #slde2, #slde3 {
-    transform: translateX(40%);
-    max-width:100%; height:750px;
-}
-
-.slideshow-container {
-  max-width: 73%;
-  height: 800px;
-  position: relative;
-  margin: 30% 0% 0% 13%;
- 
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-    background: rgba(124,124,124,.2);
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 28px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.1);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------FEATURED WORK / GALLERY-------*/
-
-.title2 {
-    margin-top: 3.5%
-}
-
-.gallery {
-    width: 80%;
-    height: auto;
-    margin: 50px auto;
-    border-radius: 2em;
-    background-color: #f5f8fb;
-    padding-top: 60px;
-   
-}
-
-.gallery #box {
-    width: 50%;
-    margin: %;
-    height: 500px;
-    float: left;
-    display:block;
-    background: url(fashion%20mag.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 2em
-   
-        
-}
-
-
-
 /**-----MID SECTION END-----**/
 
 
-
-#contact-img {
-    width: 100%;
-    height: 720px;
-    background-image: url(contact-img.png);
-    background-position: center;
-    background-size: cover;
-    margin-top: 50px;
-}
-
-#contact-img h2{
-    margin: 0 auto;
-    color: #fff;
-    font-size: 5em;
-    font-weight:800;
-    width:7em;
-    font-family: "lato";
-    top: 4em;
-    position: relative;
-}
-
-#contact-img h5{
-    margin: 0 auto;
-    color: #fff;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    width:18em;
-    font-family: sans-serif;
-    top: 14em;
-    font-weight: 300;
-    position: relative;
-    text-transform: uppercase;
-    padding: 15px 0;
-}
 
 
 #btn2 {
@@ -372,72 +128,21 @@ h3 {
 /*-------RESPONSIVE: MOBILE----------*/
 
 
-@media only screen and (max-width: 600px) and (min-width: 320px) {
+@media only screen and (max-width: 900px) and (min-width: 320px) {
     
-    nav #menu-icon {
-        visibility: visible;
-        float: right;
-        display: inline-block;
-        margin: 14px;
-    }
-    nav ul, nav:active ul {
-        display: none;
-        z-index: 1000;
-        position: absolute;
-        padding: 20px;
-        background-color: #222;
-        right: 20px;
-        top: 60px;
-        border: 1px solid white;
-        border-radius: 10px 1px 10px 10px;
-        width: 20%;
-        text-align: center;
-        padding: 0 20px 10px 20px;
-    }
-    nav:hover ul {
-        display: block;
-        border-bottom: none;
-    }
-    nav li {
-        width: 100%;
-    }
-    #logo {
-        margin: 10px;    
-    }
-    .banner #cover {
-        bottom: -15em;
-        position: relative;
-        margin-bottom: 200px
-    }
-    .banner h3 {
-        display: none;
-    }
-    .banner h1 {
-        font-size: 4em;
-        top: 2.5em;
-        right: 1.2em;
-        z-index:1;
-    }
-    
-    
-    .gallery {
-        height: 2000px;
-        width: 90%;
-    }
-    
-    #contact-img h2 {
-        font-size: 4em;
-       top: 3em;
-        position: relative;
-    }
-    #contact-img h5 {
-        top: 9em;
-        position: relative;
-    }
-    #contact-img #btn2 {
-        top: 16em;
-        position: relative;
-    }
-    #contact-img {
-        height: 500px
-    }
+    .hero-image{
+        background-image: url(website%20face%20dark%20mobile.png);
+        overflow: visible;
+        background-size: cover;
+     }
+   
+    .des{
+    margin: 10px 0;
+    display: block;
+    font-size:25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+    text-shadow: -2px  #333;
+    padding-left: 20px;
+}
